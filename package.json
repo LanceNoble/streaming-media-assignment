@@ -1,0 +1,35 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.12.0",
+    "npm": "9.4.0"
+  },
+  "description": "stream media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Tests\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LanceNoble/streaming-media-assignment.git"
+  },
+  "keywords": [
+    "stream",
+    "media",
+    "assignment"
+  ],
+  "author": "Lance Noble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LanceNoble/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/LanceNoble/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
